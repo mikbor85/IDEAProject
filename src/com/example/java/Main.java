@@ -17,16 +17,17 @@ public class Main {
         try {
             FileUtils.copyFile(sourceFile, targetFile);
         } catch (IOException e){
-            e.printStackTrace();
-        }
+        e.printStackTrace();
+    }
 
 
-        List<Olive> olives = new ArrayList<>();
+    List<Olive> olives = new ArrayList<>();
         olives.add(new Kalamata());
         olives.add(new Kalamata());
         olives.add(new Kalamata());
         olives.add(new Langurian());
         olives.add(new Langurian());
+        olives.add(new Olivka());
         olives.add(new Olivka());
 
 
